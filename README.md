@@ -1,7 +1,7 @@
-# genncov
+# About
 gentoo portage overlay for [nextstrain.org/ncov](https://github.com/nextstrain/ncov) building.
 
-# TODO
+# Todo
 ```
 emerge snakemake nextstrain-cli
 ```
