@@ -22,8 +22,7 @@ RDEPEND="dev-python/netifaces
 	dev-python/botocore
 	app-emulation/docker
 	dev-python/augur
-	dev-python/awscli
-	<dev-python/s3transfer-0.3.0"
+	dev-python/awscli"
 
 python_test() {
 	esetup.py test
