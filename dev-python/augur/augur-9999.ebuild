@@ -22,8 +22,7 @@ RDEPEND="sci-biology/mafft
 	sci-biology/fasttree
 	sci-biology/iqtree
 	sci-biology/vcftools
-	dev-python/pathlib
-	app-emulation/docker"
+	dev-python/pathlib"
 
 python_test() {
 	esetup.py test
