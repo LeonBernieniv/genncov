@@ -12,10 +12,13 @@ Auspice must be [installed form source](https://nextstrain.org/docs/getting-star
 Put these into /etc/portage/package.mask to solving dependency conflicts.
 ```
 ### The 'botocore<1.14.0,>=1.13.2' is required by boto3
->dev-python/s3transfer-0.2.1
+>dev-python/botocore-1.13.50
 
 ### The 's3transfer<0.3.0,>=0.2.0' is required by boto3
->dev-python/botocore-1.13.50
+>dev-python/s3transfer-0.2.1
+
+### The 'docutils<0.16,>=0.10' is required by botocore
+>=dev-python/docutils-0.16
 
 ### <=dev-python/awscli-1.16.314 is required by dev-python/botocore-1.15.5 
 >dev-python/awscli-1.16.314
