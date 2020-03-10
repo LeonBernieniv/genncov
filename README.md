@@ -11,6 +11,9 @@ Auspice must be [installed form source](https://nextstrain.org/docs/getting-star
 # Requirement
 Put these into /etc/portage/package.mask to solving dependency conflicts.
 ```
+### The 'pandas==0.*,>=0.20.0' is required by nextstrain-augur
+>dev-python/pandas-0.24.2
+
 ### The 'botocore<1.14.0,>=1.13.2' is required by boto3
 >dev-python/botocore-1.13.50
 
