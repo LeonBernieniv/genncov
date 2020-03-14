@@ -20,7 +20,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	dev-python/toposort
 	dev-python/nbformat
-	dev-python/git-python
+	dev-python/GitPython
 	dev-python/datrie
 	dev-python/appdirs
 	dev-python/configargparse
